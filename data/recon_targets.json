@@ -1,0 +1,3321 @@
+{
+ "version": 1,
+ "source": "squad-armor/data/Game_vehicles.json + SquadCalc_res/layers",
+ "factions": [
+  {
+   "id": "MEI",
+   "name": "Middle Eastern Insurgents",
+   "label": "中东叛乱 MEI",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "T-62",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "BMP-1",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "MT-LB PKT",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "Technical AGS-17",
+       "hp": 750,
+       "ticket": 5,
+       "type": "TD"
+      },
+      {
+       "name": "Technical BMP-1",
+       "hp": 500,
+       "ticket": 10,
+       "type": "TD"
+      },
+      {
+       "name": "Technical Kornet",
+       "hp": 500,
+       "ticket": 5,
+       "type": "TD"
+      },
+      {
+       "name": "Technical SPG-9",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "SPA",
+     "label": "自行火炮",
+     "items": [
+      {
+       "name": "Technical Mortar",
+       "hp": 500,
+       "ticket": 5,
+       "type": "SPA"
+      },
+      {
+       "name": "Technical UB-32",
+       "hp": 500,
+       "ticket": 5,
+       "type": "SPA"
+      }
+     ]
+    },
+    {
+     "key": "SPAA",
+     "label": "防空车",
+     "items": [
+      {
+       "name": "BMP-1 ZU-23-2",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "SPAA"
+      },
+      {
+       "name": "MT-LB ZU-23-2",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "SPAA"
+      },
+      {
+       "name": "Technical ZU-23-2",
+       "hp": 500,
+       "ticket": 5,
+       "type": "SPAA"
+      },
+      {
+       "name": "Ural-375D ZU-23-2",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "SPAA"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "BRDM-2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "M1151 Technical DSHK",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Technical HMG",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LTV"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "Logistics Pickup Truck",
+       "hp": 500,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Minsk 400",
+       "hp": 300,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "MT-LB Logistics",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB DShK",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB PKM",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "Transport Pickup Truck",
+       "hp": 500,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "Ural-375D Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Ural-375D Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "AFU",
+   "name": "Armed Forces of Ukraine",
+   "label": "乌军 AFU",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "T-64BM2",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "BMP-1",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "BMP-1TS",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "BMP-2",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "BTR-4",
+       "hp": 1000,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "MTLB PKT",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "MTLB ZU23",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "Technical Kornet",
+       "hp": 500,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "SPA",
+     "label": "自行火炮",
+     "items": [
+      {
+       "name": "KrAZ-6322 BM-21 Grad",
+       "hp": 750,
+       "ticket": 5,
+       "type": "SPA"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "BRDM-2L1",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Kozak-2M1 AGS-17",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Kozak-2M1 NSV",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "Mi-8",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "KrAZ-6322 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "KrAZ-6322 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "MTLB Logistics",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Quad Bike",
+       "hp": 450,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB AGS-17",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB DShK",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB PKM",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Transport",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "GFI",
+   "name": "Ground Forces of Iran",
+   "label": "伊朗 GFI",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "T-62",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      },
+      {
+       "name": "T-72S",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "BMP-1",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "BMP-2",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "MTLB 6MA UB-32",
+       "hp": 1000,
+       "ticket": 10,
+       "type": "APC"
+      },
+      {
+       "name": "MTLB VMK",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "BRDM-2 Spandrel",
+       "hp": 750,
+       "ticket": 10,
+       "type": "TD"
+      },
+      {
+       "name": "M1151 TOW",
+       "hp": 650,
+       "ticket": 10,
+       "type": "TD"
+      },
+      {
+       "name": "Safir Kornet",
+       "hp": 750,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "BRDM-2 UB-32",
+       "hp": 750,
+       "ticket": 0,
+       "type": "RSV"
+      },
+      {
+       "name": "M1151 M2",
+       "hp": 650,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Safir AGS-17",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Safir Kord",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Safir MG3",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "UH-1H MG3",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "MT-LB Logistics",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB MG3",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB NSV",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "Safir Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Ural-4320 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Ural-4320 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "RGF",
+   "name": "Russian Ground Forces",
+   "label": "俄军陆军 RGF",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "T-72B3",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      },
+      {
+       "name": "T-90A",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "BMP-1AM",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "BMP-2",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "BMP-2M",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "BMP-3M",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "MT-LBM 6MB",
+       "hp": 1000,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "BTR-80",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "BTR-82A",
+       "hp": 1000,
+       "ticket": 10,
+       "type": "APC"
+      },
+      {
+       "name": "MT-LB PKT",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "MT-LB VMK",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "MT-LBM 6MA",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "BRDM-2 Spandrel",
+       "hp": 750,
+       "ticket": 10,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "BRDM-2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Tigr-M AGS-17",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Tigr-M Kord",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Tigr-M RWS Kord",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "Mi-8MTV-5",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "KamAZ 5350 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "KamAZ 5350 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "MT-LB Logistics",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB AGS-17",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB NSV",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB PKP",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "VDV",
+   "name": "Russian Airborne Forces",
+   "label": "俄空降 VDV",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "T-72B3",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "BMD-1M",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "BMD-4M",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "BTR-D",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "BTR-D AGS-17",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "BTR-D Kord",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "BTR-D PKM",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "BTR-MDM",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "SPAA",
+     "label": "防空车",
+     "items": [
+      {
+       "name": "BTR-ZD",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "SPAA"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "BRDM-2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Sprut-SDM1",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "MGS"
+      },
+      {
+       "name": "Tigr-M AGS-17",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Tigr-M Kord",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "Mi-8",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "BTR-DG Logistics",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "KamAZ 5350 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "KamAZ 5350 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "RHIB AGS-17",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB NSV",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB PKP",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CAF",
+   "name": "Canadian Armed Forces",
+   "label": "加军 CAF",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "Leopard 2A6M CAN",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "Coyote",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "LAV 6",
+       "hp": 1750,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "LAV III C6 RWS",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "LAV III M2 RWS",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "APC"
+      },
+      {
+       "name": "M113A3 C6",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "M113A3 M2",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "M113A3 TLAV",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "M1151 TOW",
+       "hp": 650,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "LUVW C6",
+       "hp": 500,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "LUVW M2",
+       "hp": 500,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "TAPV",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "CH-146",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      },
+      {
+       "name": "CH-146 CAS",
+       "hp": 1000,
+       "ticket": 10,
+       "type": "AH"
+      },
+      {
+       "name": "CH-178",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "LUV-A1 Logistics",
+       "hp": 500,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "LUV-A1 Transport",
+       "hp": 500,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "LUVW Logistics",
+       "hp": 500,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "LUVW Transport",
+       "hp": 500,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "M113A3 Logistics",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "MSVS Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "MSVS Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB M2",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB M240",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CRF",
+   "name": "Canadian Resistance Forces",
+   "label": "加反抗军 CRF",
+   "cats": [
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "Coyote",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "M113A3",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "M1151 TOW",
+       "hp": 650,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "Light FSV",
+       "hp": 650,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Light Transport",
+       "hp": 500,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "M939 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Quad Bike",
+       "hp": 450,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB M2",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB M240",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "Technical Logistics",
+       "hp": 500,
+       "ticket": 1,
+       "type": "LOGI"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "TLF",
+   "name": "Turkish Land Forces",
+   "label": "土军 TLF",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "M60T",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "ACV-15 25mm",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "PARS III 25mm",
+       "hp": 1000,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "ACV-15 M2",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ACV-15 MG3",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "M113A2T M2",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "M113A2T Mk19",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "PARS III M2 RWS",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "PARS III MG3 RWS",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "PARS III Mk19 RWS",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "SPA",
+     "label": "自行火炮",
+     "items": [
+      {
+       "name": "M113A2T M121",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "SPA"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "Cobra II M2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Cobra II M2 RWS",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Cobra II MG3",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Cobra II MG3 RWS",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "UH60 PKM",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "BMC-185 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "BMC-185 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "M113A2 Logistics",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "M113A3 Logistics",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB M2",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB MG3",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "OpFor",
+   "name": "OpFor",
+   "label": "旧版叛乱 OpFor",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "T-62",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "BMP-1",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "MT-LB PKT",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "SPA",
+     "label": "自行火炮",
+     "items": [
+      {
+       "name": "Technical UB-32",
+       "hp": 500,
+       "ticket": 5,
+       "type": "SPA"
+      }
+     ]
+    },
+    {
+     "key": "SPAA",
+     "label": "防空车",
+     "items": [
+      {
+       "name": "Ural-375D ZU-23-2",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "SPAA"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "BRDM-2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "M1151 Technical DSHK",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Technical HMG",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LTV"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "Logistics Pickup Truck",
+       "hp": 500,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Minsk 400",
+       "hp": 300,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "Ural-375D Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Ural-375D Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "IMF",
+   "name": "Irregular Militia Forces",
+   "label": "民兵 IMF",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "T-62",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      },
+      {
+       "name": "T-72A",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "BMP-1",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "BMP-2",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "MT-LBM 6MB",
+       "hp": 1000,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "BTR-80",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "MT-LB VMK",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "Technical Kornet",
+       "hp": 500,
+       "ticket": 5,
+       "type": "TD"
+      },
+      {
+       "name": "Technical SPG-9",
+       "hp": 500,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "SPA",
+     "label": "自行火炮",
+     "items": [
+      {
+       "name": "Modern Technical UB-32",
+       "hp": 500,
+       "ticket": 5,
+       "type": "SPA"
+      },
+      {
+       "name": "Ural-375D BM-21 Grad",
+       "hp": 750,
+       "ticket": 5,
+       "type": "SPA"
+      }
+     ]
+    },
+    {
+     "key": "SPAA",
+     "label": "防空车",
+     "items": [
+      {
+       "name": "BMP-1 ZU-23-2",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "SPAA"
+      },
+      {
+       "name": "MT-LB ZU-23-2",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "SPAA"
+      },
+      {
+       "name": "Ural-375D ZU-23-2",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "SPAA"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "BRDM-2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Technical AGS-17",
+       "hp": 500,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Technical HMG",
+       "hp": 500,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Tigr-M Kord",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "Logistics Modern Pickup",
+       "hp": 500,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Minsk 400",
+       "hp": 300,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "MT-LB Logistics",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB DShK",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB PKM",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "Transport Modern Pickup",
+       "hp": 500,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "Ural-375D Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "Ural-375D Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "PLANMC",
+   "name": "PLA Navy Marine Corps",
+   "label": "海军陆战 PLANMC",
+   "cats": [
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "ZBD05",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "ZBL08",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "ZSD05",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSL10",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "CSK131 HJ8",
+       "hp": 750,
+       "ticket": 10,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "CSK131 QJC88 RWS",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "CSK131 QJY88",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "CSK131 QJZ89",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Lynx8x8 QJZ89",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Lynx8x8 QLZ87",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "ZTD05",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "MGS"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "Z-8J",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "CTM131 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "CTM131 QJY88",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "CTM131 QJZ89",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "Lynx8x8 Logistics",
+       "hp": 750,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "Lynx8x8 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB QJY88",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB QJZ89",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "ZSD05 Logistics",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "LOGI"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ADF",
+   "name": "Australian Defence Force",
+   "label": "澳军 ADF",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "M1A1",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "ASLAV",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "M1151 TOW",
+       "hp": 650,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "PMV Mag58",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "PMV RWS M2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "MRH-90",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      },
+      {
+       "name": "UH-60M",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "HX60 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "HX60 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB M2",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB M240",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "USA",
+   "name": "United States Army",
+   "label": "美军 USA",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "M1A2",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "M2A3",
+       "hp": 2000,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "M7A3",
+       "hp": 2000,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "M1126 CROWS M2",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "APC"
+      },
+      {
+       "name": "M1126 CROWS M240",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "M113A3 M2",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "M113A3 Mk19",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "M-ATV TOW",
+       "hp": 750,
+       "ticket": 10,
+       "type": "TD"
+      },
+      {
+       "name": "M1151 TOW",
+       "hp": 650,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "SPA",
+     "label": "自行火炮",
+     "items": [
+      {
+       "name": "M1064A3 M121",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "SPA"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "M-ATV CROWS M2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M-ATV CROWS M240",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M-ATV M2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M-ATV M240",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M-ATV Mk19",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M1128 MGS",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "MGS"
+      },
+      {
+       "name": "M1151 CROWS M2",
+       "hp": 650,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M1151 M2",
+       "hp": 650,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M1151 M240",
+       "hp": 650,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M1151 Mk19",
+       "hp": 650,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "MATV CROWS M2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "Mi-8MTV-5",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      },
+      {
+       "name": "UH-60M",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "M113A3 Logistics",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "M939 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "M939 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "Quad Bike",
+       "hp": 450,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB M2",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB M240",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "USMC",
+   "name": "United States Marine Corps",
+   "label": "美陆战队 USMC",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "M1A1",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "AAVP-7A1",
+       "hp": 2000,
+       "ticket": 10,
+       "type": "APC"
+      },
+      {
+       "name": "LAV-25",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "M1151 TOW",
+       "hp": 650,
+       "ticket": 5,
+       "type": "TD"
+      },
+      {
+       "name": "MATV TOW",
+       "hp": 750,
+       "ticket": 10,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "M1151 CROWS M2",
+       "hp": 650,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M1151 M2",
+       "hp": 650,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M1151 M240",
+       "hp": 650,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M1151 Mk19",
+       "hp": 650,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "MATV CROWS M2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "MATV M2",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "MATV Mk19",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "UH-1Y",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "AAVC-7A1 Logistics",
+       "hp": 2000,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "M939 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "M939 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "Quad Bike",
+       "hp": 450,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB M2",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB M240",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Mk19",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "BAF",
+   "name": "British Armed Forces",
+   "label": "英军 BAF",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "FV4034",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "FV510",
+       "hp": 2000,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "FV510 UA",
+       "hp": 2000,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "FV520 CTAS40",
+       "hp": 2000,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "FV107",
+       "hp": 750,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "FV432 L11A1",
+       "hp": 2000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "FV432 L11A1 RWS",
+       "hp": 2000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "FV432 L37A2 RWS",
+       "hp": 2000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "M1151 TOW",
+       "hp": 650,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "LPPV",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "LPPV RWS",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "SA330",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "HX60 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "HX60 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB M2",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB M240",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "PLA",
+   "name": "People's Liberation Army",
+   "label": "解放军 PLA",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "ZTZ99A",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "ZBD04A",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "ZBL08",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "ZSD89II IFV",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "ZSL92 IFV",
+       "hp": 1000,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "ZSD89 APC QJZ89",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSD89 APC QLZ87",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSL10 QJZ89",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSL10 QLZ87",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSL92A APC QJZ89",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSL92A APC QLZ87",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "CSK131 HJ8",
+       "hp": 750,
+       "ticket": 10,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "CSK131 QJC88 RWS",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "CSK131 QJY88",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "CSK131 QJZ89",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "CSK131 QLZ87",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Lynx8x8 QJZ89",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Lynx8x8 QLZ87",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "ZTD05",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "MGS"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "Z-8G",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      },
+      {
+       "name": "Z-9A",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "CTM131 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "CTM131 Transport QJY88",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "CTM131 Transport QJZ89",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "Lynx8x8 Logistics",
+       "hp": 750,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "Lynx8x8 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB QJY88",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB QJZ89",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "ZSD05 Logistics",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "LOGI"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "PLAAGF",
+   "name": "PLA Amphibious Ground Forces",
+   "label": "陆战合成 PLAAGF",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "ZTZ99A",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "IFV",
+     "label": "步战车",
+     "items": [
+      {
+       "name": "ZBD04A",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "ZBD05",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "ZBL08",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "ZSD89II IFV",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "IFV"
+      },
+      {
+       "name": "ZSL92 IFV",
+       "hp": 1000,
+       "ticket": 10,
+       "type": "IFV"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "ZSD05 QJZ89",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSD89 APC QJZ89",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSD89 APC QLZ87",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSL10 QJZ89",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSL10 QLZ87",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSL92A APC QJZ89",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      },
+      {
+       "name": "ZSL92A APC QLZ87",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "CSK131 HJ8",
+       "hp": 750,
+       "ticket": 10,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "CSK131 QJY88",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "CSK131 QJZ89",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "Lynx8x8 QJZ89",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Lynx8x8 QLZ87",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "ZTD05",
+       "hp": 1250,
+       "ticket": 10,
+       "type": "MGS"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "Z-8G",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      },
+      {
+       "name": "Z-9A",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "CTM131 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "CTM131 Transport QJY88",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "CTM131 Transport QJZ89",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "Lynx8x8 Logistics",
+       "hp": 750,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "Lynx8x8 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB QJY88",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB QJZ89",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "ZSD05 Logistics",
+       "hp": 1250,
+       "ticket": 5,
+       "type": "LOGI"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "WPMC",
+   "name": "Western Private Military Contractors",
+   "label": "雇佣兵 WPMC",
+   "cats": [
+    {
+     "key": "MBT",
+     "label": "主战坦克",
+     "items": [
+      {
+       "name": "M60T",
+       "hp": 3000,
+       "ticket": 15,
+       "type": "MBT"
+      }
+     ]
+    },
+    {
+     "key": "APC",
+     "label": "装甲运兵车",
+     "items": [
+      {
+       "name": "M113A3 M2",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "APC"
+      }
+     ]
+    },
+    {
+     "key": "TD",
+     "label": "反坦克车",
+     "items": [
+      {
+       "name": "M1151 TOW",
+       "hp": 650,
+       "ticket": 5,
+       "type": "TD"
+      }
+     ]
+    },
+    {
+     "key": "SPA",
+     "label": "自行火炮",
+     "items": [
+      {
+       "name": "Technical Mortar",
+       "hp": 500,
+       "ticket": 5,
+       "type": "SPA"
+      }
+     ]
+    },
+    {
+     "key": "LIGHT",
+     "label": "轻型火力车",
+     "items": [
+      {
+       "name": "CPV M134 Minigun",
+       "hp": 500,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "CPV Transport",
+       "hp": 500,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M1117",
+       "hp": 750,
+       "ticket": 5,
+       "type": "MRAP"
+      },
+      {
+       "name": "M113A3 MSV",
+       "hp": 1000,
+       "ticket": 20,
+       "type": "MSV"
+      },
+      {
+       "name": "M1151 M2",
+       "hp": 650,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "M1151 M240",
+       "hp": 650,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Technical M134 Minigun",
+       "hp": 500,
+       "ticket": 5,
+       "type": "LTV"
+      },
+      {
+       "name": "Technical M2",
+       "hp": 500,
+       "ticket": 5,
+       "type": "LTV"
+      }
+     ]
+    },
+    {
+     "key": "AIR",
+     "label": "直升机",
+     "items": [
+      {
+       "name": "Loach CAS",
+       "hp": 750,
+       "ticket": 10,
+       "type": "AH"
+      },
+      {
+       "name": "Loach CAS Large",
+       "hp": 750,
+       "ticket": 15,
+       "type": "AH"
+      },
+      {
+       "name": "Loach CAS Single Large",
+       "hp": 750,
+       "ticket": 15,
+       "type": "AH"
+      },
+      {
+       "name": "Loach CAS Small",
+       "hp": 750,
+       "ticket": 10,
+       "type": "AH"
+      },
+      {
+       "name": "Loach Scout",
+       "hp": 750,
+       "ticket": 5,
+       "type": "AH"
+      },
+      {
+       "name": "Raven Transport",
+       "hp": 1000,
+       "ticket": 5,
+       "type": "UH"
+      }
+     ]
+    },
+    {
+     "key": "LOG",
+     "label": "运输/后勤",
+     "items": [
+      {
+       "name": "M939 Logistics",
+       "hp": 750,
+       "ticket": 5,
+       "type": "LOGI"
+      },
+      {
+       "name": "M939 Transport",
+       "hp": 750,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "Pickup Truck",
+       "hp": 500,
+       "ticket": 3,
+       "type": "TRAN"
+      },
+      {
+       "name": "Quad Bike",
+       "hp": 450,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Logistics",
+       "hp": 250,
+       "ticket": 1,
+       "type": "LOGI"
+      },
+      {
+       "name": "RHIB M134",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB M2",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "RHIB Mk19",
+       "hp": 250,
+       "ticket": 1,
+       "type": "ULTV"
+      },
+      {
+       "name": "Technical Logistics",
+       "hp": 500,
+       "ticket": 1,
+       "type": "LOGI"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "common": {
+  "label": "通用目标",
+  "items": [
+   {
+    "key": "INF",
+    "label": "步兵小队"
+   },
+   {
+    "key": "FOB",
+    "label": "敌军 FOB / 集结地"
+   },
+   {
+    "key": "MORTAR",
+    "label": "迫击炮阵地"
+   },
+   {
+    "key": "TOW",
+    "label": "反坦克导弹阵地"
+   },
+   {
+    "key": "HMG",
+    "label": "重机枪阵地"
+   },
+   {
+    "key": "REPAIR",
+    "label": "维修站 / 补给点"
+   },
+   {
+    "key": "UAV",
+    "label": "敌方无人机 / 观察哨"
+   }
+  ]
+ }
+}

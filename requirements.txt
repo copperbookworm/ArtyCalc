@@ -1,0 +1,4 @@
+# 运行依赖（开发环境：Python 3.14.5 / Windows 11）
+PySide6-Essentials>=6.6     # 界面（Qt for Python）
+Pillow>=10.0                # 截图编解码、缩放
+numpy>=1.26                 # 高程插值、模板匹配、弹道数值积分

@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- 构建产物（PyInstaller）----
+build/
+dist/
+*.spec
+%CD%/
+
+# ---- 本地运行期数据（含密钥 / 个人配置 / 日志）----
+config.json
+config*.bak*.json
+config.before-*.json
+run.log
+targets.db
+targets_selftest.db
+*.db
+
+# ---- 开发过程中的临时文件 ----
+*.bak
+*.bak-*
+*.0.51.bak
+_rec_main.py
+cmdtest_result.json
+cmdrealtest_result.json
+shot_*.png
+
+# ---- 编辑器 ----
+.idea/
+.vscode/
+*.swp
+.DS_Store
